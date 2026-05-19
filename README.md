@@ -14,7 +14,9 @@ You can run these programs either locally on your machine or directly in the clo
 3. Click **"Create codespace on main"**. This will open a secure development environment in your browser with a C compiler already installed.
 4. Use the terminal at the bottom of the screen to compile and run the files using the commands below.
 5. Compile a specific file using a C compiler (like `gcc` or `clang`):
-   ```gcc filename.c -o program```
+   ```Bash
+   clang filename.c -o program
+   ```
 6. Run the compiled executable: `./program`
 
 ### Option 2: Running Locally on Your Machine
@@ -28,7 +30,7 @@ You can run these programs either locally on your machine or directly in the clo
    ```
 3. Compile a specific file using a C compiler (like `gcc` or `clang`):
    ```Bash
-   gcc filename.c -o program
+   clang filename.c -o program
    ```
 4. Run the compiled executable:
    * On Linux/macOS: `./program`
