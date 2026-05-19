@@ -20,7 +20,7 @@ You can run these programs either locally on your machine or directly in the clo
 ### Option 2: Running Locally on Your Machine
 1. Clone this repository to your computer using your terminal:
    ```Bash
-   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+   git clone https://github.com/mahie-cs/Learning-the-basics.git
    ```
 2. Compile a specific file using a C compiler (like `gcc` or `clang`):
    ```Bash
@@ -34,4 +34,3 @@ You can run these programs either locally on your machine or directly in the clo
 * Master basic data types, conditional branching (`if/else`), and loops.
 * Learn how the CPU handles arithmetic operations.
 * Start digging into pointers and understanding how memory addresses function.
-* 
