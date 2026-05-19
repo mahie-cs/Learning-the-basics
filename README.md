@@ -19,11 +19,13 @@ You can run these programs either locally on your machine or directly in the clo
 
 ### Option 2: Running Locally on Your Machine
 1. Clone this repository to your computer using your terminal:
-   ```git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git```
-2. Navigate into the project folder:
-   ```cd YOUR_REPOSITORY_NAME```
-3. Compile a specific file using a C compiler (like `gcc` or `clang`):
-   ```gcc filename.c -o program```
+   ```Bash
+   git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
+   ```
+2. Compile a specific file using a C compiler (like `gcc` or `clang`):
+   ```Bash
+   gcc filename.c -o program
+   ```
 4. Run the compiled executable:
    * On Linux/macOS: `./program`
    * On Windows: `program.exe`
