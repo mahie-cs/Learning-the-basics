@@ -1,3 +1,11 @@
+/*  
+    No extra libraries used
+    Made and pushed using my phone
+    Because I got curious 
+    Used Termux and Git to push
+
+    This code works because of hashing and pointers
+*/
 #include <stdio.h>
 
 int main(void)
@@ -14,7 +22,11 @@ int main(void)
     for(int i = 0; i < 100; i++){
         printf("~ [Attempt no.%d] Enter your number: ", i + 1);
         scanf("%d", &input);
-        if(input > 99 || input < 0){
+        
+        if(i == 99) {
+            printf("Too many attempts! You've lost.\n");
+            break;
+        } else if(input > 99 || input < 0){
             printf("Please input a valid number! (0-99)\n");
             i--;
         } else if(comp < input){
@@ -23,9 +35,6 @@ int main(void)
             printf("Higher\n");
         } else if(comp == input){
             printf("Congrats on guessing the right number!\n");
-            break;
-        } else if (i == 99){
-            printf("Too many attempts!\n");
             break;
         } else {
             printf("Something went wrong :(\n");
